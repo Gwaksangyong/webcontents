@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>당신에 대해 알려주세요</title>
+        <body>
+    <fieldset>
+<style>
+    body{background-color: darkcyan;}
+    h6{color:rgb(255, 248, 121);}
+    hr{color:chartreuse}
+    span{color:plum;font-size: 20px;}</style>
+    <legend>좋아하는 것 <span>선택</span>하기</legend>
+    <hr>
+    <form>
+        <h6>좋아하는 색깔 (중복선택 가능)</h6>
+        white<input type="checkbox" value="1" checked><br>
+        purple<input type="checkbox" value="2"><br>
+        orange<input type="checkbox" value="3"><br>
+        light green<input type="checkbox" value="4"><br>
+        <hr>
+        <h6>가장 좋아하는 음식 (한개만 선택)</h6>
+        <label>
+          <input type="radio" name="china" value="1">
+          간짜장<img src="media/ganjj.jpg" width="200" height="150" alt="간짜장사진없음"><br>
+          <input type="radio" name="china" value="2">
+          차돌짬뽕<img src="media/chajj.jpg" width="200" height="150" alt="차돌짬뽕사진없음"><br>
+          <input type="radio" name="china" value="3">
+          깐쇼새우<img src="media/ggans.jpg" width="200" height="150" alt="깐쇼새우사진없음"><br>
+        </label>
+    </form>
+    <form action="">
+        <hr>
+        <label>
+            성함 : 
+            <input type="text">
+        </label><br>
+        <label for="nickname">
+            닉네임 : 
+            <input id="nickname" type="text">
+        </label>
+        <input type="submit" value="SUBMIT">
+    </form>
+</fieldset>
+</body>
+</html>
